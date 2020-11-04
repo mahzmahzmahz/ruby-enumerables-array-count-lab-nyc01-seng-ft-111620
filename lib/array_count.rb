@@ -3,8 +3,9 @@ def count_strings(array)
   count = 0 
   string = []
   array.count do |is_string|
-   is_string.class == String 
+  if is_string.class == String 
       string << is_string
+    end
     count += 1 
   end
     return string.count 
