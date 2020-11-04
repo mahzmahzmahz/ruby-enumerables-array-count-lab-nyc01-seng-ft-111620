@@ -5,6 +5,7 @@ def count_strings(array)
     if is_string == String 
       count += 1 
     end
+  end
     count 
 end
 
